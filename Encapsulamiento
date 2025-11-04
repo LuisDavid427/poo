@@ -1,0 +1,63 @@
+# Encapsulamiento, Métodos de Acceso y Métodos Mutadores (POO)
+
+---
+
+## 1. Concepto Central: Encapsulamiento
+
+El **encapsulamiento** es uno de los cuatro pilares de la Programación Orientada a Objetos (POO).
+
+* **Definición Conceptual:** Consiste en **ocultar los detalles internos** del estado de un objeto (sus atributos) y **restringir el acceso directo** a estos.
+* **Propósito:** Proteger la integridad de los datos, evitando que sean modificados de forma inesperada desde fuera de la clase. Solo la propia clase tiene el control total sobre sus atributos.
+* **Mecanismo Clave:** Se logra haciendo que los atributos sean **privados** (`private`) y obligando a la interacción a través de métodos públicos.
+
+---
+
+## 2. Métodos de Acceso (Getters) y Mutadores (Setters)
+
+Dado que los atributos son privados, necesitamos métodos públicos para interactuar con ellos de forma controlada.
+
+### A. Métodos de Acceso (Getters o Accessors)
+* **Función:** Permiten **obtener (leer)** el valor de un atributo privado.
+* **Convención:** Su nombre generalmente comienza con `get` (ej: `getNombre()`).
+* **Control:** Devuelven el valor sin permitir modificarlo.
+
+### B. Métodos Mutadores (Setters o Mutators)
+* **Función:** Permiten **modificar (escribir)** el valor de un atributo privado.
+* **Convención:** Su nombre generalmente comienza con `set` (ej: `setEdad(int nuevaEdad)`).
+* **Control:** Permiten incluir **lógica de validación** dentro del método antes de que el valor se asigne al atributo.
+
+---
+
+## 3. Ejemplo Conceptual y Código (Java/C# - Simulación)
+
+A continuación, se muestra cómo se aplica el encapsulamiento en una clase `Jugador`, garantizando que la vida nunca sea negativa.
+
+### Código de la Clase `Jugador`
+
+```java
+// Clase Jugador
+public class Jugador {
+    // 1. Encapsulamiento: El atributo 'vida' es privado (oculto).
+    private int vida;
+
+    // Constructor
+    public Jugador(int vidaInicial) {
+        this.vida = vidaInicial;
+    }
+
+    // 2. Método Mutador (Setter): Permite modificar con validación.
+    public void setVida(int nuevaVida) {
+        // Lógica de Validación (esencial del Encapsulamiento)
+        if (nuevaVida >= 0) {
+            this.vida = nuevaVida;
+        } else {
+            // Aseguramos la integridad: la vida nunca será negativa.
+            this.vida = 0;
+        }
+    }
+
+    // 3. Método de Acceso (Getter): Permite leer el valor.
+    public int getVida() {
+        return this.vida;
+    }
+}
