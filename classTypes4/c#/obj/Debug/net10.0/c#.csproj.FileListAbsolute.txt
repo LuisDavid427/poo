@@ -1,0 +1,14 @@
+D:\SENA\Corredor\poo\classTypes4\c#\bin\Debug\net10.0\c#.exe
+D:\SENA\Corredor\poo\classTypes4\c#\bin\Debug\net10.0\c#.deps.json
+D:\SENA\Corredor\poo\classTypes4\c#\bin\Debug\net10.0\c#.runtimeconfig.json
+D:\SENA\Corredor\poo\classTypes4\c#\bin\Debug\net10.0\c#.dll
+D:\SENA\Corredor\poo\classTypes4\c#\bin\Debug\net10.0\c#.pdb
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.GeneratedMSBuildEditorConfig.editorconfig
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.AssemblyInfoInputs.cache
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.AssemblyInfo.cs
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.csproj.CoreCompileInputs.cache
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.dll
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\refint\c#.dll
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.pdb
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\c#.genruntimeconfig.cache
+D:\SENA\Corredor\poo\classTypes4\c#\obj\Debug\net10.0\ref\c#.dll
